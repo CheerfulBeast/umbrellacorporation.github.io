@@ -1,0 +1,97 @@
+body{
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.head h2{
+    margin-top: -50px;
+}
+.container{
+  margin-top: -50px;
+  width: 50%;
+  height: 60vh;
+  background: rgba(86, 86, 86, 0.3);
+  backdrop-filter: blur(10px);
+  position:relative;
+  left: 0;
+  top: -15px;
+}
+.form-group{
+    margin: 30px;
+}
+.head{
+    color: white;
+    margin-top: 80px;
+    margin-left: 930px;
+}
+.button{
+    display: inline-block;    
+    background-color: #282828;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    display: inline-block;    
+    background-color: red;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.form-group input{
+    margin-left: 20px;
+}
+.container{
+    margin: 5px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 900px;
+}
+label{
+    color: green;
+}
+.navigation{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.navigation ul{
+    display: block;
+    max-height: 100px;
+}
+.navigation li{
+    list-style: none;
+    display: inline-block;
+}
+.navigation a{
+    color: green;
+    font-size: 30px;
+    margin: 5px;
+    transition: 0.8s;
+}
+.navigation a:hover{
+    color: orange;
+    font-size: 30px;
+    margin: 5px;
+}
+
+#logo{
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: 0;
+    
+}
